@@ -13,7 +13,7 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    gap:30px;
+    gap:30px;/* From w3School https://www.w3schools.com/cssref/css3_pr_gap.php*/
 }
 a{
     color: white;

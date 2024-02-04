@@ -270,7 +270,7 @@ img {
     height: 300px;
     width: 315px;
     justify-content:space-evenly ;
-    border-radius: 0px 0px 10px 10px;
+
 }
 
 .option1 {
@@ -287,6 +287,7 @@ h2{
     height: 39px;
     width: 315px;
     text-align: left;
+    border-radius: 0px 0px 10px 10px;
 }
 .main2{
     display: flex;

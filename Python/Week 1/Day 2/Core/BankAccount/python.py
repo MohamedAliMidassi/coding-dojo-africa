@@ -20,9 +20,8 @@ class BankAccount:
         # your code here
         if(self.balance>0):
             self.balance+=0.01
-            print("the intrest rate increased")
+            print(f"the intrest rate increased {self.balance}")
 account1=BankAccount(0.1,1)
-account1.deposit(5)
-account1.withdraw(5)
-account1.display_account_info()
-account1.yield_interest()
+account2=BankAccount(0.05,0)
+account1.deposit(5).deposit(5).deposit(5).withdraw(15).yield_interest().display_account_info()
+account2.deposit(20).deposit(20).withdraw(10).withdraw(10).withdraw(10).withdraw(10).yield_interest().display_account_info()
